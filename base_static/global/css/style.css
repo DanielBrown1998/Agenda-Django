@@ -292,7 +292,7 @@ svg {
   font-size: var(--smaller-font-size);
 }
 
-.btn{
+.btn {
   background-color: var(--link-dark-color);
   color: var(--clr-white);
   font-weight: bold;
@@ -303,32 +303,32 @@ svg {
   transition: filter var(--transition-fast) ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
   filter: brightness(90%);
 }
 
 .btn:focus,
-.btn:active{
+.btn:active {
   filter: brightness(80%);
   box-shadow: 0 0 5px var(--link-dark-color);
 }
 
-.contact-links{
+.contact-links {
   margin-block: calc(var(--small-font-size) * 2);
   display: flex;
   align-items: center;
   gap: 0 var(--spacing);
 }
 
-.btn-link{
+.btn-link {
   font-size: var(--small-font-size);
   text-decoration: none;
   font-weight: bold;
   padding: 1rem;
-  display: block;
+  display: inline-block;
   line-height: var(--small-font-size);
 }
 
-.btn-delete{
+.btn-delete {
   background: tomato;
 }

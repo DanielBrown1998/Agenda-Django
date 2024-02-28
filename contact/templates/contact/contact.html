@@ -15,7 +15,12 @@
             <a class="btn btn-link" href="{% url "contact:update" contact.id %}">Update</a>
             <form action="{% url "contact:delete" contact.id %}" method='POST'>
                 {% csrf_token %}
-                <button class="btn btn-link btn-delete" type="submit">Delete</button>
+                {% if confirmation == 'no' %}
+                    <input type="hidden" name='confirmation' value='yes'></input>
+                    <button class="btn btn-link btn-delete" type="">Confirma?</button>
+                {% else %}
+                    <button class="btn btn-link btn-delete" type="submit">Delete</button>
+                {% endif %}
             </form>
         </div>
     </div>
