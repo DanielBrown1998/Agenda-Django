@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50a545c3-db22-423b-9540-337ed7ea7a30" name="Changes" comment="update forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_templates/global/partials/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/base_templates/global/partials/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views/contact_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views/contact_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views/user_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views/user_forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
